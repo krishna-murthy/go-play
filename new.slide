@@ -21,6 +21,9 @@ Krishna
 * Addressable
 .play -edit ./addressable.go
 
+* Addressable
+.play -edit ./addressable_1.go
+
 * Panic recover
 .play -edit ./panic_recover_fail.go
 
