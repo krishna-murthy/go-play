@@ -25,7 +25,7 @@ Krishna
 
 
 * Addressable
-.play -edit ./addresseable.go
+.play -edit ./addressable.go
 
 * Goroutines
 - waiting on <-channel will block if there's no sender
