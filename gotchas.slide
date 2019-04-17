@@ -5,10 +5,6 @@ Krishna
 
 * Gotchas
 
-* Weird slicing
-    WierdSlice([]int{1, 2, 3, 4, 5}, 2)
-.play -edit ./slice_mutate.go /^func WierdSlice/,/^}/
-
 * Calling on nil
 .play ./nil_call.go 
 
@@ -71,6 +67,10 @@ Krishna
 
 * More slices
 .play -edit ./slice_2.go
+
+* Weird slicing
+    WierdSlice([]int{1, 2, 3, 4, 5}, 2)
+.play -edit ./slice_mutate.go /^func WierdSlice/,/^}/
 
 * Gotchas
 .play ./debugging.go
