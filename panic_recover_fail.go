@@ -3,12 +3,12 @@ package main
 import "fmt"
 
 func doRecover() {  
-    fmt.Println("recovered =>",recover()) //prints: recovered => <nil>
+    fmt.Println("recovered =>",recover())
 }
 
 func main() {  
     defer func() {
-        doRecover() //panic is not recovered
+        doRecover()
     }()
 
     panic("not good")
