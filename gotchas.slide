@@ -7,11 +7,6 @@ Krishna
 - var x Type // default nil
 - nil is the zero value for pointers, interfaces, channels, slices, maps and function types, and it represents an uninitialized state
 - slice is a reference (*ptr, len, cap)
-
-* Gotchas
-.play ./debugging.go
-
-* Gotchas
 - function receivers - will not change values if its non pointer
 - iteration of map data is random
 - range gives values, for mutation you need to use index
@@ -23,7 +18,6 @@ Krishna
 * Calling on nil
 .play ./nil_call.go 
 
-
 * Addressable
 .play -edit ./addressable.go
 
@@ -32,6 +26,15 @@ Krishna
 
 * Panic recover
 .play -edit ./panic_recover_success.go
+
+* References
+.play -edit ./reference_1.go
+
+* References
+.play -edit ./reference_2.go
+
+* References
+.play -edit ./reference_3.go
 
 * Goroutines
 - waiting on <-channel will block if there's no sender
@@ -48,6 +51,9 @@ Krishna
 - err = io.Copy(ioutil.Discard, resp.Body)
 - req.Close
 - recover
+
+* Gotchas
+.play ./debugging.go
 
 * References:
  - http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang
