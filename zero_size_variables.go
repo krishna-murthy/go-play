@@ -12,6 +12,6 @@ func main() {
   b := &data{}
   
   if a == b {
-    fmt.Printf("same address - a=%p b=%p\n",a,b)
+    fmt.Printf("a=%p b=%p\n",a,b)
   }
 }

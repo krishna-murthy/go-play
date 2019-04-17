@@ -44,6 +44,23 @@ Krishna
 * References
 .play -edit ./reference_3.go
 
+* Comparison
+.play -edit ./deep_equal_1.go
+
+* Comparison
+.play -edit ./deep_equal_2.go
+
+* Comparison
+.play -edit ./deep_equal_3.go
+
+* Slices
+.play -edit ./slices_1.go
+
+* Slices
+
+* Slices
+.play -edit ./slices_2.go
+
 * More slices
 .play -edit ./slice_1.go
 
