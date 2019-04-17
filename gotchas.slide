@@ -46,6 +46,3 @@ Krishna
 * References:
  - http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang
  - https://medium.com/golangspec/detect-locks-passed-by-value-in-go-efb4ac9a3f2b
-
-* License
-.image ./images/by-sa.png
