@@ -10,6 +10,6 @@ func main() {
   gs := map[string]gopher{}
   gs["tall"] = gopher{"TallGopher"}
   fmt.Println("map: ", gs)
-  gs["tall"].name = "change" // HL
+  gs["tall"].name = "change"
   fmt.Println("map: ", gs)
 }
