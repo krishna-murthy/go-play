@@ -53,6 +53,9 @@ Krishna
 * Comparison
 .play -edit ./deep_equal_3.go
 
+* Comparison
+.play -edit ./deep_equal_4.go
+
 * Slices
 .play -edit ./slices_1.go
 
