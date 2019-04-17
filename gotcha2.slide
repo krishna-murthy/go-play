@@ -8,14 +8,6 @@ Krishna
 * Calling on nil
 .play ./nil_call.go 
 
-* Addressable
-.play -edit ./addressable.go
-
-* Addressable
-
-* Addressable
-.play -edit ./addressable_1.go
-
 * Zero size variables
 .play -edit ./zero_size_variables.go
 
