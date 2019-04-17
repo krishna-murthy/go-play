@@ -1,0 +1,60 @@
+Gotchas
+17 April 2019
+
+Krishna
+
+* Gotchas
+
+* Weird slicing
+    WierdSlice([]int{1, 2, 3, 4, 5}, 2)
+.play -edit ./slice_mutate.go /^func WierdSlice/,/^}/
+
+* Calling on nil
+.play ./nil_call.go 
+
+* Addressable
+.play -edit ./addressable.go
+
+* Addressable
+
+* Addressable
+.play -edit ./addressable_1.go
+
+* Zero size variables
+.play -edit ./zero_size_variables.go
+
+* Panic recover
+.play -edit ./panic_recover_fail.go
+
+* Panic recover
+
+* Panic recover
+.play -edit ./panic_recover_success.go
+
+* References
+.play -edit ./reference_1.go
+
+* References
+
+* References
+.play -edit ./reference_2.go
+
+* References
+
+* References
+.play -edit ./reference_3.go
+
+* More slices
+.play -edit ./slice_1.go
+
+* More slices
+
+* More slices
+.play -edit ./slice_2.go
+
+* Gotchas
+.play ./debugging.go
+
+* References:
+ - http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang
+ - https://medium.com/golangspec/detect-locks-passed-by-value-in-go-efb4ac9a3f2b
