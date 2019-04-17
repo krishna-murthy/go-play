@@ -11,9 +11,6 @@ func playBool() {
   } else {
     fmt.Println("abandon your hope and assumptions !!!")
   }
-  if 2 == 2 {
-    fmt.Println("this should be true!")
-  }
 }
 
 func main() {
