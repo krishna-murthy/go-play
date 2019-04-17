@@ -9,7 +9,7 @@ Krishna
 - slice is a reference (*ptr, len, cap)
 
 * Gotchas
-.play -edit ./debugging.go
+.play ./debugging.go
 
 * Gotchas
 - function receivers - will not change values if its non pointer
