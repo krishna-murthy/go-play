@@ -27,6 +27,12 @@ Krishna
 * Addressable
 .play -edit ./addressable.go
 
+* Panic recover
+.play -edit ./panic_recover_fail.go
+
+* Panic recover
+.play -edit ./panic_recover_success.go
+
 * Goroutines
 - waiting on <-channel will block if there's no sender
 - explicitly need to wait for the spawned goroutines (waitGroup / time)
